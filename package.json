@@ -1,0 +1,20 @@
+
+{
+  "name": "backend-chatbot",
+  "version": "1.0.0",
+  "description": "Proxy para chatbot n8n",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "node proxy.js",
+    "dev": "node proxy.js"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^3.0.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
